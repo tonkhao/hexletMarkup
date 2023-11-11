@@ -1,40 +1,71 @@
 @font-face {
     font-family: "Poppins Regular";
-    src: url("../fonts/Poppins-Regular.ttf");
+    src: url("./fonts/Poppins/Poppins-Regular.ttf");
 }
 
 @font-face {
     font-family: "Poppins Bold";
-    src: url("../fonts/Poppins-Bold.ttf");
+    src: url("./fonts/Poppins/Poppins-Bold.ttf");
 }
 
 @font-face {
     font-family: "Jost Regular";
-    src: url("../fonts/Poppins-Regular.ttf");
+    src: url("./fonts/Poppins/Poppins-Regular.ttf");
 }
 
 @font-face {
     font-family: "Jost Bold";
-    src: url("../fonts/Poppins-Bold.ttf");
+    src: url("./fonts/Poppins/Poppins-Bold.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
 }
 
 body {
     font-family: "Roboto Regular", sans-serif;
 }
 
-html, body {
-    margin: 0;
-    padding: 0;
+header {
+    background: silver;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
 }
 
-header {
+header ul {
+    background: orange;
+}
 
+.headerMenu ul li {
+    display: inline-block;
 }
 
 .content {
+    background: gray;
+}
 
+.introSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMeSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formSection {
+    display: flex;
+    justify-content: space-between;
 }
 
 footer {
-
+    background: yellow;
+    height: 500px;
 }
