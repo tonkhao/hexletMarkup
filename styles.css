@@ -46,6 +46,13 @@ header ul {
     display: inline-block;
 }
 
+.headerMenuLink {
+    font: 400 30px "Poppins Regular";
+    color: #686565;
+    text-decoration: none;
+    margin: 0 40px;
+}
+
 .content {
     background: gray;
 }
