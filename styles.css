@@ -28,7 +28,40 @@ html, body {
 }
 
 body {
-    font-family: "Roboto Regular", sans-serif;
+    color: #383838;
+    font-family: "Poppins Regular";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2 {
+    color: #2000E7;
+    font-family: "Poppins Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 16.8px;
+}
+
+h2.smallIntro {
+    color: #2000E7;
+    font-family: "Poppins Regular";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3 {
+    color: #2000E7;
+    font-family: "Poppins Regular";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 header {
@@ -36,6 +69,7 @@ header {
     display: flex;
     justify-content: space-between;
     height: 300px;
+    padding: 70px;
 }
 
 header ul {
@@ -62,8 +96,34 @@ header ul {
     justify-content: space-between;
 }
 
+.introButtonsWrapper {
+    display: flex;
+}
+
+.buttonBasic {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border: 1px solid red;
+    width: 246px;
+    height: 72px;
+    border-radius: 10px;
+    box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
+}
+
+.buttonBlue {
+    background: #2000E7;
+    color: #fff;
+}
+
+.buttonWhite {
+    background: rgba(32, 0, 231, 0.04);
+    color: #2000E7;
+}
+
 .aboutMeSection {
     display: flex;
+    height: 910px;
     justify-content: space-between;
 }
 
