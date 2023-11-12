@@ -38,7 +38,7 @@ body {
 
 h2 {
     color: #2000E7;
-    font-family: "Poppins Regular";
+    font-family: "Poppins Bold";
     font-size: 48px;
     font-style: normal;
     font-weight: 700;
@@ -47,12 +47,11 @@ h2 {
 }
 
 h2.smallIntro {
-    color: #2000E7;
-    font-family: "Poppins Regular";
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    letter-spacing: normal;
+}
+
+.orangeCaption {
+    color: #F2BD00;
 }
 
 h3 {
@@ -72,7 +71,6 @@ header {
 }
 
 header ul {
-    background: orange;
 }
 
 .headerMenu ul li {
@@ -92,11 +90,13 @@ header ul {
 
 .introSection {
     display: flex;
+    height: 710px;
     justify-content: space-between;
 }
 
 .buttonsWrapper {
     display: flex;
+    margin: 100px 0;
 }
 
 .buttonBasic {
@@ -106,6 +106,7 @@ header ul {
     display: flex;
     justify-content: center;
     height: 72px;
+    margin-right: 60px;
     width: 246px;
     text-decoration: none;
 }
@@ -125,6 +126,7 @@ header ul {
     display: flex;
     height: 910px;
     justify-content: space-between;
+    align-items: center;
 }
 
 .projectsSection {
@@ -151,9 +153,17 @@ header ul {
 .formSection {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.form {
+
 }
 
 .inputWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 80px;
 }
 
@@ -163,6 +173,13 @@ input[type=text], input[type=password] {
     flex-shrink: 0;
     background: #FFF;
     box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: "Poppins Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 40px;
 }
 
 textarea {
@@ -171,6 +188,13 @@ textarea {
     flex-shrink: 0;
     background: #FFF;
     box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: "Poppins Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 40px;
 }
 
 input[type=button] {
@@ -179,6 +203,13 @@ input[type=button] {
     flex-shrink: 0;
     background: #FFF;
     box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #000;
+    font-family: "Poppins Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 40px;
 }
 
 footer {
@@ -197,4 +228,12 @@ footer {
 
 .taCenter {
     text-align: center;
+}
+
+.sectionPadding {
+    padding: 30px 77px 30px 77px;
+}
+
+p {
+    margin: 15px 0;
 }
