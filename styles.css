@@ -65,7 +65,6 @@ h3 {
 }
 
 header {
-    background: silver;
     display: flex;
     justify-content: space-between;
     height: 300px;
@@ -88,7 +87,7 @@ header ul {
 }
 
 .content {
-    background: gray;
+
 }
 
 .introSection {
@@ -122,6 +121,7 @@ header ul {
 }
 
 .aboutMeSection {
+    background: #f5fbff;
     display: flex;
     height: 910px;
     justify-content: space-between;
@@ -144,13 +144,45 @@ header ul {
     margin: 20px;
 }
 
+.contactMeSection {
+    background: #f5fbff;
+}
+
 .formSection {
     display: flex;
     justify-content: space-between;
 }
 
+.inputWrapper {
+    margin-bottom: 80px;
+}
+
+input[type=text], input[type=password] {
+    width: 653px;
+    height: 94px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+textarea {
+    width: 653px;
+    height: 265px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+input[type=button] {
+    width: 327px;
+    height: 94px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 footer {
-    background: yellow;
+    background: #fff8ea;
     height: 500px;
 }
 
