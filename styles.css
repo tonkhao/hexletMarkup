@@ -186,6 +186,15 @@ footer {
     height: 500px;
 }
 
+.footerLinks {
+    display: flex;
+}
+
+.footerLinkSection {
+    background: silver;
+    margin: 10px;
+}
+
 .taCenter {
     text-align: center;
 }
