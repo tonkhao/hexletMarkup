@@ -168,6 +168,7 @@ header ul {
 }
 
 input[type=text], input[type=password] {
+    border: none;
     width: 653px;
     height: 94px;
     flex-shrink: 0;
@@ -183,6 +184,7 @@ input[type=text], input[type=password] {
 }
 
 textarea {
+    border: none;
     width: 653px;
     height: 265px;
     flex-shrink: 0;
@@ -198,6 +200,7 @@ textarea {
 }
 
 input[type=button] {
+    border: none;
     width: 327px;
     height: 94px;
     flex-shrink: 0;
@@ -248,10 +251,15 @@ input.footerInputSubmit {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    position: absolute;
+    left: 240px;
+}
+
+.footerSubscribe {
+
 }
 
 .footerLinkSection {
-    background: silver;
     margin: 10px;
 }
 
@@ -268,7 +276,7 @@ input.footerInputSubmit {
     list-style: none;
 }
 
-.footerMenu a {
+.footerMenu li, .footerMenu a {
     color: #000;
     font-family: "Jost Regular";
     font-size: 31px;
@@ -277,6 +285,24 @@ input.footerInputSubmit {
     line-height: normal;
     text-decoration: none;
 }
+
+.copyrights {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyrightText {
+    color: #000;
+    font-family: "Jost Regular";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footerSocials a {
+    display: inline-block;
+}
+
 
 .taCenter {
     text-align: center;
@@ -288,4 +314,20 @@ input.footerInputSubmit {
 
 p {
     margin: 15px 0;
+}
+
+.width_em_01 {
+    width: 0.1em;
+}
+
+.width_em_02 {
+    width: 0.2em;
+}
+
+.width_em_03 {
+    width: 0.3em;
+}
+
+.width_em_04 {
+    width: 0.4em;
 }
