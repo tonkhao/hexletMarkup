@@ -34,6 +34,12 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+
+}
+
+.main {
+    margin: 0 auto;
+    width: 1450px;
 }
 
 h2 {
@@ -82,10 +88,6 @@ header ul {
     color: #686565;
     text-decoration: none;
     margin: 0 40px;
-}
-
-.content {
-
 }
 
 .introSection {
@@ -201,6 +203,7 @@ textarea {
 
 input[type=button] {
     border: none;
+    cursor: pointer;
     width: 327px;
     height: 94px;
     flex-shrink: 0;
@@ -287,6 +290,7 @@ input.footerInputSubmit {
 }
 
 .copyrights {
+    align-items: center;
     display: flex;
     justify-content: space-between;
 }
@@ -299,6 +303,7 @@ input.footerInputSubmit {
     font-weight: 400;
     line-height: normal;
 }
+
 .footerSocials a {
     display: inline-block;
 }
@@ -310,6 +315,14 @@ input.footerInputSubmit {
 
 .sectionPadding {
     padding: 30px 77px 30px 77px;
+}
+
+.sectionBottomMargin {
+    margin-bottom: 300px;
+}
+
+.clearBottomPadding {
+    padding-bottom: 0;
 }
 
 p {
