@@ -97,6 +97,10 @@ header {
     justify-content: space-between;
 }
 
+.introduction {
+    width: 600px;
+}
+
 .buttonsWrapper {
     display: flex;
     margin: 100px 0;
