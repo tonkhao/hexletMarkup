@@ -157,6 +157,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top:170px;
 }
 
 .form {
@@ -172,7 +173,7 @@ header {
 
 input[type=text], input[type=password] {
     border: none;
-    width: 653px;
+    width: 630px;
     height: 94px;
     flex-shrink: 0;
     background: #FFF;
@@ -188,7 +189,7 @@ input[type=text], input[type=password] {
 
 textarea {
     border: none;
-    width: 653px;
+    width: 630px;
     height: 265px;
     flex-shrink: 0;
     background: #FFF;
@@ -265,11 +266,29 @@ input.footerInputSubmit {
     margin-top: 50px;
 }
 
-.footerLinkSection {
+.footerLinkSection1 {
     margin-top: 120px;
+    width: 450px;
 }
 
-.footerLinkSection h3 {
+.footerLinkSection2 {
+    margin-top: 120px;
+    width: 230px;
+}
+
+.footerLinkSection3 {
+    margin-top: 120px;
+    width: 300px;
+}
+
+.footerLinkSection4 {
+    margin-top: 120px;
+    width: 340px;
+}
+
+/*вот этот кусок нужно порефакторить*/
+
+.footerLinkSection1 h3, .footerLinkSection2 h3, .footerLinkSection3 h3 {
     color: #000;
     font-family: "Jost Bold";
     font-size: 31px;
@@ -278,6 +297,19 @@ input.footerInputSubmit {
     line-height: normal;
     padding: 0 40px 40px 40px;
 }
+
+.footerLinkSection4 h3 {
+    color: #000;
+    font-family: "Jost Bold";
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 0 40px 40px 20px;
+}
+
+/*the end*/
+
 
 .footerMenu {
     list-style: none;
@@ -319,14 +351,18 @@ input.footerInputSubmit {
 }
 
 .sectionPadding {
-    padding: 30px 77px 30px 77px;
+    padding: 30px 60px 30px 60px;
 }
 
 .sectionBottomMargin {
     margin-bottom: 300px;
 }
 
-.clearBottomPadding {
+.padding0 {
+    padding: 0;
+}
+
+.bottomPadding {
     padding-bottom: 0;
 }
 
